@@ -30,8 +30,8 @@ async function func(){
 ### Example stats
 ```json
 { 
-  iterations: 1000000,
-  pauses: 22,
-  cyclesBetweenInterupts: 45455
+  "iterations": 1000000,
+  "pauses": 22,
+  "cyclesBetweenInterupts": 45455
 }
 ```
