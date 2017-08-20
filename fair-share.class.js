@@ -9,8 +9,7 @@ module.exports = class FairShare {
     Object.assign(this,defaults,settings,{
       iterations:0,
       pauses:0,
-      start: Date.now(),
-      process: require('process')
+      start: Date.now()
     });
 
   }
@@ -34,7 +33,7 @@ module.exports = class FairShare {
     this.start = Date.now();
     this.pauses++;
     return new Promise((resolve)=>{
-      this.process.nextTick(()=>{ resolve(); });
+      setImmediate(()=>{ resolve(); });
     });
   }
 

@@ -2,7 +2,7 @@
   "name": "fair-share",
   "description": "Share processor time between async functions",
   "author": "Thomas Frank <thomas@nodebite.se (http://nodebite.se)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "fair-share.class.js",
   "repository": {
     "type": "git",
