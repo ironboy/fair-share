@@ -23,7 +23,7 @@ module.exports = class FairShare {
     return {
       iterations: this.iterations,
       pauses: this.pauses,
-      cyclesBetweenInterupts: c
+      cyclesBetweenInterrupts: c
     }
   }
 
