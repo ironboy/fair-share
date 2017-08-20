@@ -32,6 +32,6 @@ async function func(){
 { 
   "iterations": 1000000,
   "pauses": 22,
-  "cyclesBetweenInterupts": 45455
+  "cyclesBetweenInterrupts": 45455
 }
 ```
